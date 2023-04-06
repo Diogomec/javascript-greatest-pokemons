@@ -1,6 +1,13 @@
 // Iteration 1: All Fire Pokemons- get the array of all Fire type pokemons
-
+function getAllFirePokemons(allPokemons){
+    const firePokemons = allPokemons.filter(pokemons => pokemons.type.includes("Fire"));
+    
+    return firePokemons;
+}
 // Iteration 2: Shortest Pokemon- find the `name` of the shortest pokemon
+function shortestPokemon(heightPokemons){
+    const heightPokemons = allPokemons.filter(pokemons => pokemons.type.includes("Fire"));
+}
 
 // Iteration 3: candy_count average - average of `candy_count` for all the pokemons
 
